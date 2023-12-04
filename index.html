@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSIT | Student Help Desk</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bree+Serif&family=Qwitcher+Grypen:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="MSIT.png" alt="MSITstudenthelp.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">Clubs</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banners -->
+    <main>
+        <img src="https://picsum.photos/id/237/1000/500"  class="slide" alt="">
+        <img src="https://picsum.photos/id/238/1000/500"  class="slide" alt="">
+        <img src="https://picsum.photos/id/239/1000/500"  class="slide" alt="">
+        <img src="https://picsum.photos/id/240/1000/500"  class="slide" alt="">
+    </main>
+     <div class="ban">
+        <button onclick="goPrev()">Prev</button>
+        <button onclick="goNext()">Next</button>
+     </div>
+
+    <!-- services -->
+    <section id="services-container">
+        <!-- <h1 class="h-primary center">Our Services</h1> -->
+        <div id="services">
+            <div class="box">
+                <img src="department.jpg" alt="">
+                <h2 class="h-secondary center">Departments</h2>
+                <button class="btn">click Now</button>
+            </div>
+            <div class="box">
+                <img src="web.png" alt="">
+                <h2 class="h-secondary center">Addmission</h2>
+                <a href="https://msit.edu.in/index.php/master/page/admission"> <button>Click Now</button> </a>
+            </div>
+            <div class="box">
+                <img src="Study.jpg" alt="">
+                <h2 class="h-secondary center">Study Material</h2>
+                <button class="btn">click Now</button>
+            </div>
+            <div class="box">
+                <img src="classrutin.png" alt="">
+                <h2 class="h-secondary center">Class Routine</h2>
+                <button class="btn">click Now</button>
+            </div>
+            <div class="box">
+                <img src="QuestionPaper.png" alt="">
+                <h2 class="h-secondary center">Question Papers</h2>
+                <button class="btn">click Now</button>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
